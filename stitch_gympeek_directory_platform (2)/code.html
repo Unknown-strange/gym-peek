@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>GymPeek - Ghana's Premier Gym Directory</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-error": "#ffffff", "error": "#ba1a1a", "primary-fixed": "#dbe1ff", "secondary-container": "#d9dff4", "on-secondary-container": "#5c6274", "on-secondary": "#ffffff", "on-tertiary-fixed-variant": "#005321", "background": "#f8f9ff", "on-tertiary-container": "#c1ffc5", "secondary": "#585e6f", "on-secondary-fixed-variant": "#404757", "secondary-fixed-dim": "#c0c6da", "outline-variant": "#c3c6d7", "on-primary-fixed-variant": "#003ea8", "surface-dim": "#cbdbf5", "tertiary": "#006229", "surface-variant": "#d3e4fe", "inverse-primary": "#b4c5ff", "on-primary": "#ffffff", "surface-container-high": "#dce9ff", "primary": "#004ac6", "surface-container-lowest": "#ffffff", "on-secondary-fixed": "#151b2a", "inverse-surface": "#213145", "on-background": "#0b1c30", "surface-container-low": "#eff4ff", "surface-container-highest": "#d3e4fe", "error-container": "#ffdad6", "on-tertiary": "#ffffff", "on-tertiary-fixed": "#002109", "surface-container": "#e5eeff", "primary-fixed-dim": "#b4c5ff", "on-surface-variant": "#434655", "tertiary-fixed-dim": "#4ae176", "primary-container": "#2563eb", "secondary-fixed": "#dce2f6", "surface-tint": "#0053db", "surface": "#f8f9ff", "on-primary-container": "#eeefff", "inverse-on-surface": "#eaf1ff", "tertiary-fixed": "#6bff8f", "on-primary-fixed": "#00174b", "outline": "#737686", "on-surface": "#0b1c30", "tertiary-container": "#007e37", "surface-bright": "#f8f9ff", "on-error-container": "#93000a" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter-sm": "1rem", "space-sm": "0.5rem", "margin-lg": "4rem", "margin": "1rem", "space-md": "1rem", "gutter-lg": "2rem", "space-lg": "1.5rem", "space-xs": "0.25rem", "gutter": "1.5rem", "margin-md": "2rem", "space-xl": "2.5rem" }, "fontFamily": { "headline-md": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "label-caps": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"] }, "fontSize": { "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "800" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-sm": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" }], "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-caps": ["11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "body-md": ["15px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased min-h-screen flex flex-col relative"><header class="fixed top-0 left-0 right-0 z-50 flex justify-center pointer-events-none px-4 pt-4"><div class="pointer-events-auto w-full max-w-5xl h-16 rounded-full bg-white/70 backdrop-blur-xl shadow-[0_12px_36px_-6px_rgba(37,99,235,0.12),0_2px_8px_-2px_rgba(11,28,48,0.06)] flex items-center justify-between px-space-md lg:px-space-lg transition-all duration-300"><div class="flex items-center gap-space-sm"><img alt="GymPeek Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UL1Kc9UAZRL8Cmeet549ovkfnNPJrml4SBbrQ85OiIm-Om-7myD1Iqw18UX9tIcVnZjKVhwzpmEO8lWChvp1IoZ44tB5fJW7BJ4hgxM6FcueOwzpSpX0LOR690etDmt3Ec6dfVzNspMx8Y6lySH7528lo2o99Zmx8PaHVDHeHwnijGk0YebRo3okD8hyfXlFkK6zP6d6l6oBZvlkIaL8ROybfnPgYbW9jagC1pLgwaqXhEIpWr6121zg"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-extrabold">GymPeek</span></div><nav class="hidden md:flex items-center gap-space-xs p-1.5 rounded-full bg-surface-container-low/60 backdrop-blur-md" data-active-classes="bg-surface-container text-primary font-semibold shadow-sm"><a class="px-space-md py-1.5 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#">Home</a><a class="px-space-md py-1.5 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="browse-gyms" href="#">Browse Gyms</a><a class="px-space-md py-1.5 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a></nav><div class="flex items-center gap-space-sm"><a class="inline-flex items-center px-space-md py-2 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-all duration-200 shadow-[0_8px_20px_-4px_rgba(37,99,235,0.35)]" data-path="add-your-gym" href="#">Add your gym</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 w-full pt-16 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Dark Navy Hero / Presentation Zone -->
+<section class="relative w-full bg-on-secondary-fixed overflow-hidden pt-6 pb-12 lg:pb-16 px-4 sm:px-6 lg:px-8">
+<!-- Ambient Liquid Glass Gradient Radiance Blobs -->
+<div class="absolute -top-32 -left-20 w-96 h-96 rounded-full bg-primary-container/20 blur-[100px] pointer-events-none"></div>
+<div class="absolute top-1/3 -right-24 w-80 h-80 rounded-full bg-tertiary-fixed-dim/15 blur-[90px] pointer-events-none"></div>
+<div class="absolute -bottom-20 left-1/3 w-72 h-72 rounded-full bg-primary/25 blur-[120px] pointer-events-none"></div>
+<div class="max-w-6xl mx-auto relative z-10">
+<!-- Breadcrumb Navigation & Top Actions -->
+<div class="flex items-center justify-between gap-4 mb-6">
+<a class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-white/15 backdrop-blur-md text-white font-label-lg text-label-lg transition-all duration-200" href="#">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+<span>Back to gyms</span>
+</a>
+<div class="flex items-center gap-2">
+<button class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white/10 hover:bg-white/15 backdrop-blur-md text-white font-label-md text-label-md transition-colors" id="shareBtn" title="Share gym">
+<span class="material-symbols-outlined text-[18px]">share</span>
+<span class="hidden sm:inline">Share gym</span>
+</button>
+<button class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white/10 hover:bg-white/15 backdrop-blur-md text-white font-label-md text-label-md transition-colors" id="favBtn" title="Save to favorites">
+<span class="material-symbols-outlined text-[18px]" id="favIcon">bookmark_border</span>
+<span class="hidden sm:inline">Save</span>
+</button>
+</div>
+</div>
+<!-- Header Title & Location Strip -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+<div>
+<div class="flex flex-wrap items-center gap-3 mb-2">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md text-tertiary-fixed text-label-md font-label-md">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary-fixed opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-tertiary-fixed"></span>
+</span>
+              Open now · Closes 9:00 PM
+            </span>
+<span class="px-3 py-1 rounded-full bg-primary-container/30 text-primary-fixed text-label-md font-label-md">
+              East Legon, Accra
+            </span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-white tracking-tight font-extrabold mb-2">
+            Pulse Fitness Hub
+          </h1>
+<div class="flex items-center gap-2 text-surface-variant font-body-md text-body-md">
+<span class="material-symbols-outlined text-primary-fixed-dim text-[20px]">location_on</span>
+<span>Boundary Road (near A&amp;C Mall), East Legon, Accra</span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex flex-col items-start md:items-end bg-white/5 backdrop-blur-md px-4 py-2.5 rounded-2xl">
+<span class="text-surface-variant font-label-caps text-label-caps uppercase tracking-wider">Pass Starts At</span>
+<div class="flex items-baseline gap-1">
+<span class="text-white font-headline-md text-headline-md font-bold">GH₵30</span>
+<span class="text-surface-variant font-body-sm text-body-sm">/ day</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Media Visual Gallery Section -->
+<div class="space-y-3">
+<!-- Main Featured Photo Container with Refined Liquid Shimmer -->
+<div class="relative w-full aspect-[16/9] md:aspect-[21/9] rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-tr from-on-secondary-fixed via-primary-container/80 to-primary-container p-1 group">
+<div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/30 via-transparent to-black/60 pointer-events-none"></div>
+<!-- Abstract Architectural Structural Grid Overlay -->
+<div class="absolute inset-0 opacity-15 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:24px_24px] pointer-events-none"></div>
+<!-- Glass Center Badge & Label -->
+<div class="relative w-full h-full rounded-[14px] md:rounded-[22px] flex flex-col items-center justify-center text-center px-6 transition-all duration-300 group-hover:scale-[1.005]">
+<div class="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-white/10 backdrop-blur-xl flex items-center justify-center mb-3 shadow-[inset_0_1px_1px_rgba(255,255,255,0.4)]">
+<span class="material-symbols-outlined text-white text-3xl md:text-4xl">photo_camera</span>
+</div>
+<p class="text-white font-headline-sm text-headline-sm font-semibold tracking-wide drop-shadow-md">
+              Gym photo — Main Workout Floor &amp; Free Weights
+            </p>
+<p class="text-surface-variant font-body-sm text-body-sm mt-1 max-w-md">
+              High-ceiling strength arena equipped with power cages, Olympic barbells, and dumbbell rack zone.
+            </p>
+</div>
+<!-- Overlay Glass Badge for photo count -->
+<div class="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-on-secondary-fixed/80 backdrop-blur-md text-white font-label-md text-label-md shadow-lg">
+<span class="material-symbols-outlined text-[16px]">collections</span>
+<span>6 photos</span>
+</div>
+<!-- Virtual Walkthrough Indicator -->
+<div class="absolute top-4 left-4 sm:top-6 sm:left-6 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/15 backdrop-blur-md text-white font-label-md text-label-md shadow-md">
+<span class="material-symbols-outlined text-tertiary-fixed text-[18px]">verified_user</span>
+<span>Accra Central Zone</span>
+</div>
+</div>
+<!-- Gallery Thumbnails Row -->
+<div class="grid grid-cols-5 gap-2 sm:gap-3">
+<!-- Thumbnail 1 (Active) -->
+<button class="thumb-btn relative aspect-square rounded-xl md:rounded-2xl overflow-hidden bg-gradient-to-br from-primary-container to-on-secondary-fixed p-0.5 shadow-md ring-2 ring-primary-container transition-all" data-caption="Main Workout Floor &amp; Free Weights">
+<div class="w-full h-full rounded-[10px] md:rounded-[14px] flex flex-col items-center justify-center p-1 bg-on-secondary-fixed/40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white text-lg md:text-xl">fitness_center</span>
+<span class="text-[10px] md:text-xs font-label-md text-white mt-1 truncate max-w-full px-1">Floor</span>
+</div>
+</button>
+<!-- Thumbnail 2 -->
+<button class="thumb-btn relative aspect-square rounded-xl md:rounded-2xl overflow-hidden bg-gradient-to-br from-on-secondary-fixed via-primary/50 to-on-secondary-fixed p-0.5 shadow-sm opacity-80 hover:opacity-100 transition-all" data-caption="Cardio Deck &amp; Treadmills">
+<div class="w-full h-full rounded-[10px] md:rounded-[14px] flex flex-col items-center justify-center p-1 bg-on-secondary-fixed/40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white text-lg md:text-xl">directions_run</span>
+<span class="text-[10px] md:text-xs font-label-md text-white mt-1 truncate max-w-full px-1">Cardio</span>
+</div>
+</button>
+<!-- Thumbnail 3 -->
+<button class="thumb-btn relative aspect-square rounded-xl md:rounded-2xl overflow-hidden bg-gradient-to-br from-primary-container/80 via-primary to-on-secondary-fixed p-0.5 shadow-sm opacity-80 hover:opacity-100 transition-all" data-caption="Locker Room &amp; Private Showers">
+<div class="w-full h-full rounded-[10px] md:rounded-[14px] flex flex-col items-center justify-center p-1 bg-on-secondary-fixed/40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white text-lg md:text-xl">shower</span>
+<span class="text-[10px] md:text-xs font-label-md text-white mt-1 truncate max-w-full px-1">Lockers</span>
+</div>
+</button>
+<!-- Thumbnail 4 -->
+<button class="thumb-btn relative aspect-square rounded-xl md:rounded-2xl overflow-hidden bg-gradient-to-br from-on-secondary-fixed via-primary/60 to-primary-container p-0.5 shadow-sm opacity-80 hover:opacity-100 transition-all" data-caption="Aerobics &amp; HIIT Studio">
+<div class="w-full h-full rounded-[10px] md:rounded-[14px] flex flex-col items-center justify-center p-1 bg-on-secondary-fixed/40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white text-lg md:text-xl">self_improvement</span>
+<span class="text-[10px] md:text-xs font-label-md text-white mt-1 truncate max-w-full px-1">Studio</span>
+</div>
+</button>
+<!-- Thumbnail 5 -->
+<button class="thumb-btn relative aspect-square rounded-xl md:rounded-2xl overflow-hidden bg-gradient-to-br from-primary via-on-secondary-fixed to-on-secondary-fixed p-0.5 shadow-sm opacity-80 hover:opacity-100 transition-all" data-caption="Reception Desk &amp; Protein Station">
+<div class="w-full h-full rounded-[10px] md:rounded-[14px] flex flex-col items-center justify-center p-1 bg-on-secondary-fixed/40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white text-lg md:text-xl">storefront</span>
+<span class="text-[10px] md:text-xs font-label-md text-white mt-1 truncate max-w-full px-1">Entrance</span>
+</div>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Body Content: Asymmetric Split Grid on Soft Light Canvas -->
+<section class="w-full bg-surface py-8 lg:py-12 px-4 sm:px-6 lg:px-8">
+<div class="max-w-6xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Left Column: Primary Informational Modules (~65%) -->
+<div class="lg:col-span-7 xl:col-span-8 space-y-6">
+<!-- Card 1: About This Gym -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-8 shadow-[0_4px_24px_-4px_rgba(11,28,48,0.06)]">
+<div class="flex items-center gap-3 mb-4">
+<div class="w-10 h-10 rounded-2xl bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">info</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">About this gym</h2>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-6">
+              Pulse Fitness Hub is a premier wellness and strength training facility situated in the heart of East Legon. Featuring state-of-the-art cardio machines, Olympic weightlifting platforms, air-conditioned studio spaces, and clean private shower facilities. Designed for both casual fitness enthusiasts and serious powerlifters looking for high-end equipment with zero fluff.
+            </p>
+<!-- Quick Specs Bento Strip -->
+<div class="grid grid-cols-3 gap-3 pt-4 bg-surface-container-low/70 rounded-2xl p-4">
+<div class="flex flex-col items-center text-center p-2">
+<span class="material-symbols-outlined text-primary mb-1 text-[22px]">square_foot</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">8,500</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase mt-0.5">Square Feet</span>
+</div>
+<div class="flex flex-col items-center text-center p-2 bg-surface-container-lowest rounded-xl shadow-xs">
+<span class="material-symbols-outlined text-primary mb-1 text-[22px]">layers</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">2 Levels</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase mt-0.5">Strength &amp; Studio</span>
+</div>
+<div class="flex flex-col items-center text-center p-2">
+<span class="material-symbols-outlined text-primary mb-1 text-[22px]">badge</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Certified</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase mt-0.5">Trainers On Deck</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Facilities & Amenities -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-8 shadow-[0_4px_24px_-4px_rgba(11,28,48,0.06)]">
+<div class="flex items-center justify-between mb-6">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-2xl bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">apps</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">Facilities &amp; Amenities</h2>
+</div>
+<span class="text-label-caps font-label-caps text-on-surface-variant bg-surface-container-low px-3 py-1 rounded-full uppercase">8 Available</span>
+</div>
+<!-- Chips Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+<div class="flex items-center gap-3 p-3.5 rounded-2xl bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-xl bg-white flex items-center justify-center text-primary shadow-xs">
+<span class="material-symbols-outlined text-[18px]">ac_unit</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">Air conditioning</span>
+</div>
+<div class="flex items-center gap-3 p-3.5 rounded-2xl bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-xl bg-white flex items-center justify-center text-primary shadow-xs">
+<span class="material-symbols-outlined text-[18px]">shower</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">Hot Showers</span>
+</div>
+<div class="flex items-center gap-3 p-3.5 rounded-2xl bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-xl bg-white flex items-center justify-center text-primary shadow-xs">
+<span class="material-symbols-outlined text-[18px]">local_parking</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">Dedicated Parking</span>
+</div>
+<div class="flex items-center gap-3 p-3.5 rounded-2xl bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-xl bg-white flex items-center justify-center text-primary shadow-xs">
+<span class="material-symbols-outlined text-[18px]">assignment_ind</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">Personal trainers</span>
+</div>
+<div class="flex items-center gap-3 p-3.5 rounded-2xl bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-xl bg-white flex items-center justify-center text-primary shadow-xs">
+<span class="material-symbols-outlined text-[18px]">lock</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">Secure Lockers</span>
+</div>
+<div class="flex items-center gap-3 p-3.5 rounded-2xl bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-xl bg-white flex items-center justify-center text-primary shadow-xs">
+<span class="material-symbols-outlined text-[18px]">wifi</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">High-speed WiFi</span>
+</div>
+<div class="flex items-center gap-3 p-3.5 rounded-2xl bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-xl bg-white flex items-center justify-center text-primary shadow-xs">
+<span class="material-symbols-outlined text-[18px]">water_drop</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">Water Refill</span>
+</div>
+<div class="flex items-center gap-3 p-3.5 rounded-2xl bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-xl bg-white flex items-center justify-center text-primary shadow-xs">
+<span class="material-symbols-outlined text-[18px]">local_cafe</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">Smoothie Bar</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Opening Hours -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-8 shadow-[0_4px_24px_-4px_rgba(11,28,48,0.06)]">
+<div class="flex items-center justify-between mb-5">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-2xl bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">schedule</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">Opening Hours</h2>
+</div>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-tertiary-container/15 text-tertiary font-label-md text-label-md">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                Standard Schedule
+              </span>
+</div>
+<div class="space-y-2.5">
+<!-- Monday - Friday (Active Today) -->
+<div class="flex items-center justify-between p-3.5 rounded-2xl bg-primary-container/10">
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Monday – Friday</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/20 text-tertiary font-label-caps text-label-caps">Open Today</span>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold">5:30 AM – 10:00 PM</span>
+</div>
+<!-- Saturday -->
+<div class="flex items-center justify-between p-3.5 rounded-2xl bg-surface-container-low/40">
+<span class="font-label-lg text-label-lg text-on-surface">Saturday</span>
+<span class="font-label-lg text-label-lg text-on-surface-variant">6:00 AM – 8:00 PM</span>
+</div>
+<!-- Sunday -->
+<div class="flex items-center justify-between p-3.5 rounded-2xl bg-surface-container-low/40">
+<span class="font-label-lg text-label-lg text-on-surface">Sunday</span>
+<span class="font-label-lg text-label-lg text-on-surface-variant">8:00 AM – 6:00 PM</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-outline">event_available</span>
+<span>Public holidays: Special hours apply (7:00 AM – 2:00 PM).</span>
+</div>
+</div>
+<!-- Card 4: Location & Landmark Directions -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-8 shadow-[0_4px_24px_-4px_rgba(11,28,48,0.06)]">
+<div class="flex items-center gap-3 mb-5">
+<div class="w-10 h-10 rounded-2xl bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">pin_drop</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">Location &amp; Directions</h2>
+</div>
+<!-- Stylized Accra Map Vector Graphic with Pulsing Green Pin -->
+<div class="relative w-full h-64 sm:h-72 rounded-2xl overflow-hidden bg-surface-container mb-4" data-location="East Legon, Accra, Ghana" style="">
+<svg class="w-full h-full object-cover" fill="none" viewbox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+<!-- Base Map Shading -->
+<rect fill="#dce9ff" height="400" width="800"></rect>
+<!-- Secondary Zones / Suburbs -->
+<path d="M0,0 L320,0 L280,180 L0,120 Z" fill="#e5eeff"></path>
+<path d="M480,0 L800,0 L800,240 L520,180 Z" fill="#e5eeff"></path>
+<path d="M0,280 L350,320 L300,400 L0,400 Z" fill="#eff4ff"></path>
+<path d="M420,310 L800,270 L800,400 L400,400 Z" fill="#eff4ff"></path>
+<!-- Major Arterials (Boundary Rd, Tetteh Quarshie, Legon Bypass) -->
+<path d="M50,400 C200,320 280,240 380,190 C480,140 620,110 780,80" stroke="#c3c6d7" stroke-linecap="round" stroke-width="14"></path>
+<path d="M120,0 C220,100 350,150 400,220 C450,290 520,350 640,400" stroke="#c3c6d7" stroke-linecap="round" stroke-width="12"></path>
+<path d="M220,160 L620,240" stroke="#ffffff" stroke-linecap="round" stroke-width="8"></path>
+<path d="M380,190 L440,80" stroke="#ffffff" stroke-linecap="round" stroke-width="6"></path>
+<path d="M50,400 C200,320 280,240 380,190 C480,140 620,110 780,80" stroke="#ffffff" stroke-linecap="round" stroke-width="6"></path>
+<!-- Green Landmark Parks -->
+<circle cx="260" cy="110" fill="#c1ffc5" opacity="0.6" r="45"></circle>
+<rect fill="#c1ffc5" height="60" opacity="0.5" rx="12" width="90" x="520" y="210"></rect>
+<!-- Map Labels -->
+<text fill="#737686" font-family="Plus Jakarta Sans" font-size="13" font-weight="700" letter-spacing="1" x="530" y="70">BOUNDARY ROAD</text>
+<text fill="#737686" font-family="Plus Jakarta Sans" font-size="12" font-weight="600" x="180" y="340">A&amp;C SQUARE</text>
+<text fill="#737686" font-family="Plus Jakarta Sans" font-size="12" font-weight="600" x="460" y="360">EAST LEGON RESIDENTIAL</text>
+</svg>
+<!-- Pulsing Green Indicator Marker -->
+<div class="absolute top-[48%] left-[50%] -translate-x-1/2 -translate-y-1/2 flex flex-col items-center pointer-events-none">
+<div class="relative flex items-center justify-center">
+<div class="w-12 h-12 rounded-full bg-tertiary-container/30 animate-ping absolute"></div>
+<div class="w-10 h-10 rounded-full bg-tertiary-container text-white shadow-xl flex items-center justify-center relative z-10 ring-4 ring-white">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">fitness_center</span>
+</div>
+</div>
+<div class="mt-2 px-3 py-1 rounded-full bg-on-secondary-fixed/90 backdrop-blur-md text-white font-label-caps text-label-caps shadow-lg whitespace-nowrap">
+                  Pulse Fitness Hub
+                </div>
+</div>
+<!-- Map Overlay Glass Control -->
+<div class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-md px-3 py-1.5 rounded-full shadow-sm text-on-surface font-label-md text-label-md flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span>Accra, Greater Accra</span>
+</div>
+</div>
+<!-- Address and Landmark Details -->
+<div class="space-y-3 mb-6">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">signpost</span>
+<div>
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold">Physical Address</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Boundary Road, near A&amp;C Mall, East Legon, Accra, Greater Accra Region</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">near_me</span>
+<div>
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold">Landmark Reference</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Directly opposite Starbites East Legon, 2 minutes drive from A&amp;C Square.</p>
+</div>
+</div>
+</div>
+<!-- Get Directions Action Button -->
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-full bg-tertiary-container hover:bg-tertiary text-white font-label-lg text-label-lg transition-all duration-200 shadow-[0_8px_20px_-4px_rgba(34,197,94,0.4)]" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">directions</span>
+<span>Get directions via Google Maps</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Right Column: Sticky Membership & Rates Sidebar (~35%) -->
+<div class="lg:col-span-5 xl:col-span-4">
+<div class="sticky top-24 bg-surface-container-lowest rounded-3xl p-6 sm:p-7 shadow-[0_12px_36px_-6px_rgba(11,28,48,0.1)]">
+<div class="flex items-center justify-between mb-4">
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">Rates &amp; Access</h2>
+<span class="text-label-caps font-label-caps text-on-surface-variant bg-surface-container-low px-2.5 py-1 rounded-full uppercase">No Contracts</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Drop in casually or lock in monthly savings. Flexible payment options accepted at the desk.
+            </p>
+<!-- Pricing Breakdown -->
+<div class="space-y-3 mb-6">
+<!-- Daily Pass -->
+<div class="flex items-center justify-between p-3.5 rounded-2xl bg-surface-container-low/50 hover:bg-surface-container-low transition-colors">
+<div>
+<div class="font-label-lg text-label-lg text-on-surface font-bold">Daily Pass</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Single day full-access</div>
+</div>
+<div class="text-right">
+<div class="font-headline-sm text-headline-sm font-bold text-on-surface">GH₵30</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant">per day</div>
+</div>
+</div>
+<!-- Weekly Pass -->
+<div class="flex items-center justify-between p-3.5 rounded-2xl bg-surface-container-low/50 hover:bg-surface-container-low transition-colors">
+<div>
+<div class="font-label-lg text-label-lg text-on-surface font-bold">Weekly Pass</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">7 consecutive days</div>
+</div>
+<div class="text-right">
+<div class="font-headline-sm text-headline-sm font-bold text-on-surface">GH₵100</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant">per week</div>
+</div>
+</div>
+<!-- Monthly Membership (Highlighted Best Value) -->
+<div class="relative p-4 rounded-2xl bg-primary/5 shadow-xs">
+<div class="absolute -top-2.5 right-4 px-2.5 py-0.5 rounded-full bg-primary-container text-white font-label-caps text-label-caps shadow-sm">
+                  Best Value
+                </div>
+<div class="flex items-center justify-between">
+<div>
+<div class="font-label-lg text-label-lg text-primary font-bold">Monthly Plan</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Full unlimited access</div>
+</div>
+<div class="text-right">
+<div class="font-headline-md text-headline-md font-bold text-primary">GH₵250</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant">per month</div>
+</div>
+</div>
+</div>
+<!-- Registration Fee Notice -->
+<div class="flex items-center justify-between px-3 py-2 text-on-surface-variant font-body-sm text-body-sm">
+<span>One-time registration fee:</span>
+<span class="font-label-md text-label-md font-semibold text-on-surface">GH₵50</span>
+</div>
+</div>
+<!-- Membership Perks List -->
+<div class="space-y-2 mb-6 pt-2 pb-2">
+<div class="flex items-center gap-2.5 text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-tertiary text-[18px]">check_circle</span>
+<span>No lock-in contracts; cancel anytime</span>
+</div>
+<div class="flex items-center gap-2.5 text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-tertiary text-[18px]">check_circle</span>
+<span>Full access to weight room, studio, &amp; showers</span>
+</div>
+<div class="flex items-center gap-2.5 text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-tertiary text-[18px]">check_circle</span>
+<span>Complimentary locker usage during workouts</span>
+</div>
+</div>
+<!-- Primary CTAs in Sticky Card -->
+<div class="space-y-2.5">
+<!-- Directions Green Button -->
+<a class="w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-tertiary-container hover:bg-tertiary text-white font-label-lg text-label-lg transition-all duration-200 shadow-[0_8px_20px_-4px_rgba(34,197,94,0.4)]" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">navigation</span>
+<span>Get directions</span>
+</a>
+<!-- WhatsApp Primary Blue Button -->
+<a class="w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-primary-container hover:bg-primary text-white font-label-lg text-label-lg transition-all duration-200 shadow-[0_8px_20px_-4px_rgba(37,99,235,0.35)]" href="https://wa.me/233241234567?text=Hello%20Pulse%20Fitness%20Hub,%20I%20saw%20your%20gym%20on%20GymPeek%20and%20want%20to%20inquire." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Chat on WhatsApp</span>
+</a>
+<!-- Direct Desk Call -->
+<a class="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md transition-colors" href="tel:+233241234567">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span>Call Gym Desk (+233 24 123 4567)</span>
+</a>
+</div>
+<!-- Guarantee Note -->
+<div class="mt-4 pt-4 text-center">
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-tertiary">payments</span>
+<span>Pay at desk or via Mobile Money (MoMo).</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Sticky Bottom Mobile Action Bar (Mobile Only Viewport) -->
+<div class="fixed bottom-0 left-0 right-0 z-40 lg:hidden p-3 bg-white/80 backdrop-blur-xl shadow-[0_-8px_24px_rgba(11,28,48,0.1)]">
+<div class="max-w-md mx-auto flex items-center gap-2">
+<!-- Green Navigation CTA -->
+<a class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-full bg-tertiary-container text-white font-label-lg text-label-lg shadow-[0_6px_16px_rgba(34,197,94,0.35)]" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">navigation</span>
+<span>Directions</span>
+</a>
+<!-- WhatsApp Blue CTA -->
+<a class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-full bg-primary-container text-white font-label-lg text-label-lg shadow-[0_6px_16px_rgba(37,99,235,0.35)]" href="https://wa.me/233241234567?text=Hello%20Pulse%20Fitness%20Hub,%20I%20saw%20your%20gym%20on%20GymPeek%20and%20want%20to%20inquire." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>WhatsApp</span>
+</a>
+<!-- Quick Desk Call Icon -->
+<a class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-on-surface" href="tel:+233241234567">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</a>
+</div>
+</div>
+<!-- Interactive Logic for Gallery and Simple State Handlers -->
+<script>
+    // Gallery thumbnail click handler
+    const thumbBtns = document.querySelectorAll('.thumb-btn');
+    thumbBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        thumbBtns.forEach(b => {
+          b.classList.remove('ring-2', 'ring-primary-container', 'opacity-100');
+          b.classList.add('opacity-80');
+        });
+        btn.classList.remove('opacity-80');
+        btn.classList.add('ring-2', 'ring-primary-container', 'opacity-100');
+      });
+    });
+
+    // Favorite button toggle
+    const favBtn = document.getElementById('favBtn');
+    const favIcon = document.getElementById('favIcon');
+    if (favBtn && favIcon) {
+      favBtn.addEventListener('click', () => {
+        if (favIcon.innerText === 'bookmark_border') {
+          favIcon.innerText = 'bookmark';
+          favIcon.style.fontVariationSettings = "'FILL' 1";
+          favBtn.classList.add('bg-primary-container/30', 'text-primary-fixed');
+        } else {
+          favIcon.innerText = 'bookmark_border';
+          favIcon.style.fontVariationSettings = "'FILL' 0";
+          favBtn.classList.remove('bg-primary-container/30', 'text-primary-fixed');
+        }
+      });
+    }
+
+    // Native Web Share API integration
+    const shareBtn = document.getElementById('shareBtn');
+    if (shareBtn) {
+      shareBtn.addEventListener('click', async () => {
+        if (navigator.share) {
+          try {
+            await navigator.share({
+              title: 'Pulse Fitness Hub on GymPeek',
+              text: 'Check out Pulse Fitness Hub in East Legon, Accra on GymPeek Ghana!',
+              url: window.location.href,
+            });
+          } catch (err) {}
+        } else {
+          navigator.clipboard.writeText(window.location.href);
+          const original = shareBtn.innerHTML;
+          shareBtn.innerHTML = '<span class="material-symbols-outlined text-[18px]">done</span> Copied!';
+          setTimeout(() => { shareBtn.innerHTML = original; }, 2000);
+        }
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-inverse-surface text-inverse-on-surface relative overflow-hidden"><div class="w-full max-w-7xl mx-auto px-gutter py-space-xl"><div class="flex flex-col md:flex-row items-center md:items-start justify-between gap-space-xl pb-space-lg"><div class="flex flex-col items-center md:items-start max-w-sm text-center md:text-left"><div class="flex items-center gap-space-sm mb-space-sm"><img alt="GymPeek Brand Logo" class="h-8 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1UL1Kc9UAZRL8Cmeet549ovkfnNPJrml4SBbrQ85OiIm-Om-7myD1Iqw18UX9tIcVnZjKVhwzpmEO8lWChvp1IoZ44tB5fJW7BJ4hgxM6FcueOwzpSpX0LOR690etDmt3Ec6dfVzNspMx8Y6lySH7528lo2o99Zmx8PaHVDHeHwnijGk0YebRo3okD8hyfXlFkK6zP6d6l6oBZvlkIaL8ROybfnPgYbW9jagC1pLgwaqXhEIpWr6121zg"/><span class="font-headline-sm text-headline-sm text-surface-container-lowest font-bold">GymPeek</span></div><p class="font-body-md text-body-md text-surface-variant">See inside the gym before you go.</p></div><div class="flex flex-wrap justify-center gap-space-lg"><a class="font-label-lg text-label-lg text-surface-variant hover:text-surface-container-lowest transition-colors" data-path="browse-gyms" href="#">Browse Gyms</a><a class="font-label-lg text-label-lg text-surface-variant hover:text-surface-container-lowest transition-colors" data-path="add-your-gym" href="#">Add your gym</a><a class="font-label-lg text-label-lg text-surface-variant hover:text-surface-container-lowest transition-colors" data-path="about" href="#">About</a><a class="font-label-lg text-label-lg text-surface-variant hover:text-surface-container-lowest transition-colors" data-path="contact" href="#">Contact</a></div><div class="flex items-center gap-space-md"><a aria-label="Explore" class="w-10 h-10 rounded-full bg-surface-container/10 flex items-center justify-center text-surface-container-lowest hover:bg-primary-container transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">explore</span></a><a aria-label="Connect" class="w-10 h-10 rounded-full bg-surface-container/10 flex items-center justify-center text-surface-container-lowest hover:bg-primary-container transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">share</span></a><a aria-label="Video Showcase" class="w-10 h-10 rounded-full bg-surface-container/10 flex items-center justify-center text-surface-container-lowest hover:bg-primary-container transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">play_circle</span></a><a aria-label="Community" class="w-10 h-10 rounded-full bg-surface-container/10 flex items-center justify-center text-surface-container-lowest hover:bg-primary-container transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">forum</span></a></div></div><div class="pt-space-md text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-space-sm"><p class="font-body-sm text-body-sm text-outline-variant">© 2025 GymPeek Ghana. All rights reserved.</p><p class="font-body-sm text-body-sm text-outline-variant">Accra • Kumasi • Takoradi • Tema</p></div></div></footer></body></html>
